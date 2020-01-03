@@ -13,9 +13,14 @@ $arr=$pdo->fetchAll($sql);
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        table{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<table border="1">
+<table border="1" cellspacing="0" width="400" >
     <tr>
         <th>姓名</th>
         <th>分数</th>
